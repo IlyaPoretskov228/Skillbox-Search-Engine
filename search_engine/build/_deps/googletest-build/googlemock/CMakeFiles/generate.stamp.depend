@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/search_engine/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
