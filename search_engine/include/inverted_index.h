@@ -7,7 +7,7 @@
 #include <cstddef>
 
 /**
- * Структура для хранения doc_id и частоты (count).
+ * Структура для хранения doc_id и частоты слова (count).
  */
 struct Entry {
     size_t doc_id;
@@ -23,12 +23,12 @@ public:
     InvertedIndex() = default;
 
     /**
-     * Обновляет или заполняет базу документов, формируя freq_dictionary.
+     * Обновляет или заполняет базу документов.
      */
     void UpdateDocumentBase(const std::vector<std::string> &input_docs);
 
     /**
-     * Возвращает список (doc_id, count) для заданного слова.
+     * Возвращает список Entry для заданного слова.
      */
     std::vector<Entry> GetWordCount(const std::string &word) const;
 

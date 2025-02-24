@@ -5,7 +5,7 @@
 #include <string>
 
 /**
- * Класс для работы с JSON-файлами (config.json, requests.json, answers.json).
+ * Класс для работы с JSON-файлами.
  */
 class ConverterJSON {
 public:

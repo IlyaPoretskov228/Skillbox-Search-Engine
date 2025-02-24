@@ -1,9 +1,9 @@
 #include "converter_json.h"
 #include <nlohmann/json.hpp>
-#include <stdexcept>
 #include <fstream>
-#include <iostream>
 #include <sstream>
+#include <stdexcept>
+#include <iostream>
 #include <iomanip>
 
 using json = nlohmann::json;
@@ -59,7 +59,7 @@ int ConverterJSON::GetResponsesLimit() {
     }
     auto config = config_json["config"];
     if (!config.contains("max_responses")) {
-        return 5; // значение по умолчанию
+        return 5;
     }
     return config["max_responses"].get<int>();
 }

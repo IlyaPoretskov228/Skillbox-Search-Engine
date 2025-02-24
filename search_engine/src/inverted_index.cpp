@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <sstream>
 #include <algorithm>
+#include <cctype>
 
 static std::string to_lower(const std::string &s) {
     std::string res = s;
@@ -45,8 +46,10 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
         t.join();
     }
 
+    // Сортируем каждую группу Entry по doc_id
     for (auto &kv : freq_dictionary) {
-        std::sort(kv.second.begin(), kv.second.end(),
+        auto &entries = kv.second;
+        std::sort(entries.begin(), entries.end(),
                   [](const Entry &a, const Entry &b){
                       return a.doc_id < b.doc_id;
                   });
@@ -54,8 +57,8 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
 }
 
 std::vector<Entry> InvertedIndex::GetWordCount(const std::string &word) const {
-    std::string lower_word = to_lower(word);
-    auto it = freq_dictionary.find(lower_word);
+    auto lw = to_lower(word);
+    auto it = freq_dictionary.find(lw);
     if (it != freq_dictionary.end()) {
         return it->second;
     }

@@ -3,7 +3,6 @@
 
 #include <vector>
 #include <string>
-#include <cstddef>
 #include "inverted_index.h"
 
 /**
@@ -16,18 +15,16 @@ struct RelativeIndex {
 };
 
 /**
- * Класс для обработки поисковых запросов и вычисления релевантности.
+ * Класс для обработки поисковых запросов.
  */
 class SearchServer {
 public:
-    /**
-     * Конструктор принимает ссылку на InvertedIndex
-     */
+    // Конструктор, принимающий ссылку на InvertedIndex
     SearchServer(InvertedIndex &idx);
 
     /**
-     * Выполняет поиск по списку запросов. Возвращает вектор результатов,
-     * где каждый элемент - вектор RelativeIndex (документ, rank).
+     * Выполняет поиск по списку запросов и возвращает вектор результатов:
+     * для каждого запроса - список RelativeIndex.
      */
     std::vector<std::vector<RelativeIndex>> search(const std::vector<std::string> &queries_input);
 
