@@ -5,7 +5,7 @@
 #include <string>
 
 /**
- * Класс для работы с JSON-файлами.
+ * Класс для работы с JSON-файлами (config.json, requests.json, answers.json).
  */
 class ConverterJSON {
 public:
@@ -27,7 +27,7 @@ public:
     std::vector<std::string> GetRequests();
 
     /**
-     * Записывает результаты поиска в answers.json
+     * Записывает результаты поиска в answers.json (однократное открытие файла).
      */
     void putAnswers(const std::vector<std::vector<std::pair<int, float>>> &answers);
 };

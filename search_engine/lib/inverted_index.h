@@ -28,7 +28,7 @@ public:
     void UpdateDocumentBase(const std::vector<std::string> &input_docs);
 
     /**
-     * Возвращает список Entry для заданного слова.
+     * Возвращает список Entry (doc_id, count) для заданного слова.
      */
     std::vector<Entry> GetWordCount(const std::string &word) const;
 

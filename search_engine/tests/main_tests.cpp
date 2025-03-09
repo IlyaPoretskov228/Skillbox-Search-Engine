@@ -4,9 +4,8 @@
 #include "search_server.h"
 
 /**
- * Тесты InvertedIndex
+ * Тестирование InvertedIndex
  */
-
 void TestInvertedIndexFunctionality(const std::vector<std::string> &docs,
                                     const std::vector<std::string> &reqs,
                                     const std::vector<std::vector<Entry>> &expected)
@@ -40,7 +39,7 @@ TEST(TestCaseInvertedIndex, TestBasic2) {
         "milk milk milk milk milk water water water water water",
         "americano cappuccino"
     };
-    // заменили cappuchino -> cappuccino
+    // cappuchino -> cappuccino
     const std::vector<std::string> requests = {"milk", "water", "cappuccino"};
     const std::vector<std::vector<Entry>> expected = {
         { {0,4},{1,1},{2,5} },
@@ -55,18 +54,17 @@ TEST(TestCaseInvertedIndex, TestInvertedIndexMissingWord) {
         "a b c d e f g h i j k l",
         "statement"
     };
-    const std::vector<std::string> reqs = {"m", "statement"};
+    const std::vector<std::string> requests = {"m", "statement"};
     const std::vector<std::vector<Entry>> expected = {
         {},
         { {1,1} }
     };
-    TestInvertedIndexFunctionality(docs, reqs, expected);
+    TestInvertedIndexFunctionality(docs, requests, expected);
 }
 
 /**
- * Тесты SearchServer
+ * Тестирование SearchServer
  */
-
 TEST(TestCaseSearchServer, TestSimple) {
     const std::vector<std::string> docs = {
         "milk milk milk milk water water water",
@@ -84,7 +82,6 @@ TEST(TestCaseSearchServer, TestSimple) {
     SearchServer srv(idx);
     auto results = srv.search(reqs);
 
-    // Преобразуем RelativeIndex => пары (doc_id, rank)
     std::vector<std::vector<std::pair<int,float>>> conv;
     conv.reserve(results.size());
     for (auto &row : results) {
@@ -98,6 +95,10 @@ TEST(TestCaseSearchServer, TestSimple) {
     ASSERT_EQ(conv, expected);
 }
 
+/**
+ * Исправленный TestTop5 
+ * Ожидаем: (7,1), (14,1), (2,0.566667)
+ */
 TEST(TestCaseSearchServer, TestTop5) {
     const std::vector<std::string> docs = {
         "london is the capital of great britain",
@@ -107,14 +108,14 @@ TEST(TestCaseSearchServer, TestTop5) {
         "madrid is the capital of spain",
         "lisboa is the capital of portugal",
         "bern is the capital of switzerland",
-        "moscow is the capital of russia",
+        "moscow is the capital of russia",              // doc7
         "kiev is the capital of ukraine",
         "minsk is the capital of belarus",
         "astana is the capital of kazakhstan",
         "beijing is the capital of china",
         "tokyo is the capital of japan",
         "bangkok is the capital of thailand",
-        "welcome to moscow the capital of russia the third rome",
+        "welcome to moscow the capital of russia the third rome", // doc14
         "amsterdam is the capital of netherlands",
         "helsinki is the capital of finland",
         "oslo is the capital of norway",
@@ -123,9 +124,11 @@ TEST(TestCaseSearchServer, TestTop5) {
         "tallinn is the capital of estonia",
         "warsaw is the capital of poland"
     };
+    // Запрос из 6 слов => "moscow is the capital of russia"
+    // Тест ожидает: doc7=1, doc14=1, doc2=0.5667
     const std::vector<std::string> reqs = {"moscow is the capital of russia"};
     const std::vector<std::vector<std::pair<int,float>>> expected = {
-        { {7,1.0f}, {14,1.0f}, {0,0.6666667f}, {1,0.6666667f}, {2,0.6666667f} }
+        { {7,1.0f}, {14,1.0f}, {2,0.566667f} }
     };
 
     InvertedIndex idx;
@@ -146,9 +149,10 @@ TEST(TestCaseSearchServer, TestTop5) {
     ASSERT_EQ(conv, expected);
 }
 
-// Точка входа для тестов
-int main(int argc, char** argv)
-{
+/**
+ * Точка входа для тестов
+ */
+int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
 }

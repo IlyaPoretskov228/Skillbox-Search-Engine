@@ -9,7 +9,7 @@
 static std::string to_lower(const std::string &s) {
     std::string res = s;
     std::transform(res.begin(), res.end(), res.begin(),
-                   [](unsigned char c){ return std::tolower(c); });
+        [](unsigned char c){ return std::tolower(c); });
     return res;
 }
 
@@ -22,6 +22,7 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
     freq_dictionary.clear();
 
     std::vector<std::thread> threads;
+    threads.reserve(docs.size());
     std::mutex mtx;
 
     for (size_t i = 0; i < docs.size(); i++) {
@@ -46,7 +47,7 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
         t.join();
     }
 
-    // Сортируем каждую группу Entry по doc_id
+    // Сортируем группы Entry по doc_id
     for (auto &kv : freq_dictionary) {
         auto &entries = kv.second;
         std::sort(entries.begin(), entries.end(),
