@@ -21,10 +21,14 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
     docs = input_docs;
     freq_dictionary.clear();
 
+    // Создаём вектор потоков
     std::vector<std::thread> threads;
     threads.reserve(docs.size());
+
+    // Мьютекс для защиты freq_dictionary
     std::mutex mtx;
 
+    // Запускаем каждый документ в своём потоке
     for (size_t i = 0; i < docs.size(); i++) {
         threads.emplace_back([this, i, &mtx]() {
             std::istringstream iss(docs[i]);
@@ -35,6 +39,7 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
                 local_count[word]++;
             }
             {
+                // Блокируем freq_dictionary, чтобы безопасно внести данные
                 std::lock_guard<std::mutex> lock(mtx);
                 for (auto &p : local_count) {
                     freq_dictionary[p.first].push_back({i, p.second});
@@ -43,6 +48,7 @@ void InvertedIndex::UpdateDocumentBase(const std::vector<std::string> &input_doc
         });
     }
 
+    // Дожидаемся всех потоков
     for (auto &t : threads) {
         t.join();
     }

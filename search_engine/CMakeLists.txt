@@ -14,13 +14,21 @@ endif()
 # Опция сборки тестов
 option(BUILD_TESTS "Build tests" ON)
 
+# ВАЖНО: ищем библиотеку потоков
+find_package(Threads REQUIRED)
+
 # Подпроект библиотеки (lib/)
 add_subdirectory(lib)
 
 # Создаём исполняемый файл search_engine (основная программа)
 add_executable(search_engine src/main.cpp)
-# Линкуем нашу библиотеку (search_engine_lib)
-target_link_libraries(search_engine PRIVATE search_engine_lib)
+
+# Линкуем нашу библиотеку (search_engine_lib) + потоки
+target_link_libraries(search_engine
+    PRIVATE
+    search_engine_lib
+    Threads::Threads
+)
 
 # Копирование config.json, requests.json и resources после сборки
 add_custom_command(TARGET search_engine POST_BUILD
