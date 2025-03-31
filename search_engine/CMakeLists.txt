@@ -17,6 +17,23 @@ option(BUILD_TESTS "Build tests" ON)
 # ВАЖНО: ищем библиотеку потоков
 find_package(Threads REQUIRED)
 
+# Настройка и загрузка Google Test
+if(BUILD_TESTS)
+    # Настраиваем загрузку GoogleTest
+    include(FetchContent)
+    FetchContent_Declare(
+        googletest
+        URL https://github.com/google/googletest/archive/refs/tags/v1.13.0.zip
+    )
+    # Для Windows: предотвращаем переопределение настроек
+    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+    FetchContent_MakeAvailable(googletest)
+    
+    # Добавляем отдельную цель, чтобы избежать проблем с включением
+    include(GoogleTest)
+    enable_testing()
+endif()
+
 # Подпроект библиотеки (lib/)
 add_subdirectory(lib)
 
@@ -47,8 +64,7 @@ add_custom_command(TARGET search_engine POST_BUILD
         $<TARGET_FILE_DIR:search_engine>/resources
 )
 
-# Если хотим собирать тесты - подключаем подпроект tests/
+# Подключаем подпроект tests/
 if(BUILD_TESTS)
-    enable_testing()
     add_subdirectory(tests)
 endif()
