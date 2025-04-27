@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/tests/search_engine_tests[1]_tests.cmake")
+  include("C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/tests/search_engine_tests[1]_tests.cmake")
+else()
+  add_test(search_engine_tests_NOT_BUILT search_engine_tests_NOT_BUILT)
+endif()

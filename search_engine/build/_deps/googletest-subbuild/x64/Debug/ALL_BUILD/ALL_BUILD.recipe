@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\search_engine\build\_deps\googletest-subbuild\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-subbuild\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\search_engine\build\_deps\googletest-subbuild\x64\Debug\googletest-populate</FullPath>
+      <FullPath>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-subbuild\x64\Debug\googletest-populate</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\search_engine\build\_deps\googletest-subbuild\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-subbuild\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/cmake_install.cmake",
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/lib/cmake_install.cmake",
+		"C:/Users/gg664/OneDrive/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/search_engine/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

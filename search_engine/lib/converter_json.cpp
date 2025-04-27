@@ -110,6 +110,15 @@ void ConverterJSON::putAnswers(const std::vector<std::vector<std::pair<int, floa
 
     // Записываем файл answers.json (однократно)
     std::ofstream out("answers.json");
+    if (!out) {
+        std::cerr << "Error: Unable to open answers.json for writing. Check write permissions or disk space." << std::endl;
+        throw std::runtime_error("Cannot open answers.json for writing");
+    }
     out << std::setw(4) << ans_json;
     out.close();
+    
+    // Проверяем, что файл успешно записан
+    if (!out) {
+        throw std::runtime_error("Failed to write answers.json");
+    }
 }

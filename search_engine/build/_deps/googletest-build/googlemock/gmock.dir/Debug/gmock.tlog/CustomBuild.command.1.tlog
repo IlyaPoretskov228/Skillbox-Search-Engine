@@ -1,6 +1,6 @@
-^C:\SEARCH_ENGINE\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLEMOCK\CMAKELISTS.TXT
+^C:\USERS\GG664\ONEDRIVE\РАБОЧИЙ СТОЛ\SEARCH_ENGINE\BUILD\_DEPS\GOOGLETEST-SRC\GOOGLEMOCK\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine -BC:/search_engine/build --check-stamp-file C:/search_engine/build/_deps/googletest-build/googlemock/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build" --check-stamp-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-build/googlemock/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

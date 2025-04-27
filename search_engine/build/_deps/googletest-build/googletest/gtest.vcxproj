@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2D85DCFA-D252-3E04-B6F4-B9F54CCA7BF5}</ProjectGuid>
+    <ProjectGuid>{D3689ACF-3A08-3EE4-B0B0-BDAB1DBCF0A0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>gtest</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\search_engine\build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\search_engine\build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\search_engine\build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gtest.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\search_engine\build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gtest.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gtest</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -98,17 +98,17 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\search_engine\build\bin\Debug\gtestpdb_debug_postfix-NOTFOUND.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\Debug\gtestpdb_debug_postfix-NOTFOUND.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -121,7 +121,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -140,19 +140,19 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\search_engine\build\bin\Release\gtest.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\Release\gtest.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -165,7 +165,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -184,19 +184,19 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\search_engine\build\bin\MinSizeRel\gtest.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\MinSizeRel\gtest.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,7 +209,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) -J -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
@@ -229,17 +229,17 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level4</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\search_engine\build\bin\RelWithDebInfo\gtest.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\lib\RelWithDebInfo\gtest.pdb</ProgramDataBaseFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;UNIT_TEST;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_UNICODE;UNICODE;_WIN32;STRICT;WIN32_LEAN_AND_MEAN;GTEST_HAS_PTHREAD=0;_HAS_EXCEPTIONS=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\search_engine\build\_deps\googletest-src\googletest\include;C:\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\include;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -251,11 +251,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\search_engine\build\_deps\googletest-src\googletest\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine -BC:/search_engine/build --check-stamp-file C:/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build" --check-stamp-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,12 +263,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython\Support.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine -BC:/search_engine/build --check-stamp-file C:/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build" --check-stamp-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -276,12 +276,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython\Support.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine -BC:/search_engine/build --check-stamp-file C:/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build" --check-stamp-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -289,12 +289,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython\Support.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googletest/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine -BC:/search_engine/build --check-stamp-file C:/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build" --check-stamp-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-build/googletest/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -302,17 +302,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindPython\Support.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;C:\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\Config.cmake.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\gtest_main.pc.in;C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\cmake\internal_utils.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\Programs\CMake\share\cmake-4.0\Modules\CMakePackageConfigHelpers.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckCSourceCompiles.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckIncludeFile.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\CheckLibraryExists.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindPython\Support.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\FindThreads.cmake;D:\Programs\CMake\share\cmake-4.0\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-build\googletest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\search_engine\build\_deps\googletest-src\googletest\src\gtest-all.cc" />
+    <ClCompile Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\_deps\googletest-src\googletest\src\gtest-all.cc" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\search_engine\build\ZERO_CHECK.vcxproj">
-      <Project>{4F83E106-49A8-3CB2-8E0C-EB0F3FEDC407}</Project>
+    <ProjectReference Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\build\ZERO_CHECK.vcxproj">
+      <Project>{EB67EDCB-755B-3734-AAD0-9462B5048CF5}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

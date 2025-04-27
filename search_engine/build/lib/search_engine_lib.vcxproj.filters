@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\lib\converter_json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\lib\inverted_index.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\lib\search_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\gg664\OneDrive\Рабочий стол\search_engine\lib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3EA6BF0C-233A-330D-894B-CF589E987809}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

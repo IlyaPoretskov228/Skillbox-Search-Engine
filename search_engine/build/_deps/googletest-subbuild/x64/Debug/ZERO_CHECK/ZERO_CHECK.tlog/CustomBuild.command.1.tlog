@@ -1,6 +1,6 @@
-^C:\SEARCH_ENGINE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\2E46A08EB3FBB44421D2CEA41121DC69\GENERATE.STAMP.RULE
+^C:\USERS\GG664\ONEDRIVE\РАБОЧИЙ СТОЛ\SEARCH_ENGINE\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\C2877B27A355480B859096EBBB3B326F\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/search_engine/build/_deps/googletest-subbuild -BC:/search_engine/build/_deps/googletest-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/search_engine/build/_deps/googletest-subbuild/googletest-populate.sln
+D:\Programs\CMake\bin\cmake.exe "-SC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-subbuild" "-BC:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-subbuild/googletest-populate.sln"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -1,4 +1,10 @@
 # CMake generation dependency list for this directory.
-C:/search_engine/build/_deps/googletest-src/googlemock/CMakeLists.txt
-C:/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
-C:/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
+C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/gg664/OneDrive/Рабочий стол/search_engine/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in
+D:/Programs/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+D:/Programs/CMake/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+D:/Programs/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+D:/Programs/CMake/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+D:/Programs/CMake/share/cmake-4.0/Modules/FindPackageMessage.cmake
+D:/Programs/CMake/share/cmake-4.0/Modules/FindThreads.cmake
