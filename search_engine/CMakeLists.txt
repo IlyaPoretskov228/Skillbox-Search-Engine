@@ -17,28 +17,8 @@ option(BUILD_TESTS "Build tests" ON)
 # ВАЖНО: ищем библиотеку потоков
 find_package(Threads REQUIRED)
 
-# Настройка и загрузка Google Test
-if(BUILD_TESTS)
-    # Настраиваем загрузку GoogleTest
-    include(FetchContent)
-    FetchContent_Declare(
-        googletest
-        URL https://github.com/google/googletest/archive/refs/tags/v1.13.0.zip
-    )
-    # Для Windows: предотвращаем переопределение настроек
-    set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
-    FetchContent_MakeAvailable(googletest)
-    
-    # Добавляем отдельную цель, чтобы избежать проблем с включением
-    include(GoogleTest)
-    enable_testing()
-endif()
-
 # Подпроект библиотеки (lib/)
 add_subdirectory(lib)
-
-# Создаём исполняемый файл search_engine (основная программа)
-add_executable(search_engine src/main.cpp)
 
 # Линкуем нашу библиотеку (search_engine_lib) + потоки
 target_link_libraries(search_engine
